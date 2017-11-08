@@ -23,12 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="commons" />
-        <module name="springboot-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="commons" target="1.5" />
-      <module name="springboot-demo" target="1.5" />
+      <module name="commons" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
