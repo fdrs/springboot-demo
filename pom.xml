@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.apsaramobile</groupId>
+    <groupId>com.fdrs</groupId>
     <artifactId>springboot-demo</artifactId>
     <!--打包类型-->
     <packaging>pom</packaging>
@@ -39,7 +39,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.apsaramobile</groupId>
+                <groupId>com.fdrs</groupId>
                 <artifactId>springboot.commons</artifactId>
                 <!--隐含变量，指向当前version-->
                 <version>${project.version}</version>
