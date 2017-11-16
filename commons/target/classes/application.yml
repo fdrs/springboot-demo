@@ -1,0 +1,28 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    pool:
+      max-wait: 1000
+      max-active: 64
+
+
+author:
+  name: pyj
+  pwd: 1234
+  properties:
+    reasonable: 'true'
+    returnPageInfo: 'true'
+  listProp1:
+    - name: abc
+      value: sgaw
+    - name: efg
+      value: sagsag
+  listProp2:
+    - config2Value1
+    - config2Vavlue2
+  mapProps:
+    reasonable: true
+    returnPageInfo: true
+  arrayProps: 1,2,3,4,5

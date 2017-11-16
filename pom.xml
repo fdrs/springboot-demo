@@ -33,12 +33,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.gitee.reger</groupId>
-                <artifactId>spring-boot-starter-dubbo</artifactId>
-                <version>1.0.7</version>
-            </dependency>
-
-            <dependency>
                 <groupId>com.fdrs</groupId>
                 <artifactId>springboot.commons</artifactId>
                 <!--隐含变量，指向当前version-->
