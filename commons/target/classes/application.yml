@@ -7,6 +7,9 @@ spring:
       max-wait: 1000
       max-active: 64
 
+  profiles:
+    active: myprofile
+
 
 author:
   name: pyj
@@ -38,3 +41,11 @@ spring:
 
 test.profile:
   name: fdrs
+
+---
+
+spring:
+  profiles: otherprofile
+
+test.profile:
+  name: other

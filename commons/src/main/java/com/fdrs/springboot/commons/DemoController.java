@@ -20,15 +20,21 @@ import javax.annotation.Resource;
 @EnableConfigurationProperties(TestProfiles.class)
 public class DemoController {
 
+
+    //自动注入Spring Enviroment
     @Autowired
     private Environment env;
 
+    //Redis自动配置
     @Resource
     RedisTemplate redisTemplate;
 
+    //自定义的Starter
+    //TODO：后面需要将这个抽离出来，作为一个jar包提供
     @Autowired
     BizService bizService;
 
+    //Profiles样例
     @Autowired
     TestProfiles testProfiles;
 

@@ -6,3 +6,5 @@
 ### 三、@EnableConfigurationProperties的处理逻辑
 ### 四、@Configuration使用
 ### 五、Spring Envoriment使用
+### 六、Spring Profiles
+mvn spring-boot:run -Drun.arguments="--spring.config.location=file:./application.yml,--spring.profiles.active=myprofile"

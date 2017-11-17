@@ -7,6 +7,9 @@ spring:
       max-wait: 1000
       max-active: 64
 
+  profiles:
+    active: myprofile
+
 
 author:
   name: pyj
