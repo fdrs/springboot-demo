@@ -1,0 +1,8 @@
+com/fdrs/springboot/commons/javaconfig/TestClassA.class
+com/fdrs/springboot/commons/autoconfig/BizService.class
+com/fdrs/springboot/commons/DemoController.class
+com/fdrs/springboot/commons/Application.class
+com/fdrs/springboot/commons/autoconfig/TestProperties.class
+com/fdrs/springboot/commons/autoconfig/TestAutoConfiguration.class
+com/fdrs/springboot/commons/javaconfig/TestClassB.class
+com/fdrs/springboot/commons/profiles/TestProfiles.class

@@ -26,3 +26,15 @@ author:
     reasonable: true
     returnPageInfo: true
   arrayProps: 1,2,3,4,5
+
+
+test.profile:
+  name: default
+
+---
+
+spring:
+  profiles: myprofile
+
+test.profile:
+  name: fdrs
